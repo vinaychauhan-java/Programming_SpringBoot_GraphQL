@@ -56,10 +56,8 @@ Step-by-Step Learning for GraphQL with SpringBoot
         }
       }
     }
-  - TODO
-    - TODO
-<br>  
-- ### Mutation
+
+- #### Mutation
   - Create the User 
     <br>
     mutation {
