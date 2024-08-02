@@ -59,24 +59,21 @@ Step-by-Step Learning for GraphQL with SpringBoot
   - TODO
     - TODO
 <br>  
-- #### Mutation
-  - Create the User
-    ```
+- ### Mutation
+  - Create the User 
+    <br>
     mutation {
      createUser(firstName: "Tom", lastName: "Jerry") {
       id, firstName, lastName
      }
     }
-    ```
   - Update the User
-    ```
+    <br>
     mutation {
       updateUser(userId: 101, firstName: "Ananya", lastName: "Chauhan")
     }
-    ```
   - Delete the User
-    ```
+    <br>
     mutation {
       deleteUser(userId: 101)
     }
-    ```
