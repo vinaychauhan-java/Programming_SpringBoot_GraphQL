@@ -1,0 +1,21 @@
+scalar Long
+
+type User {
+	id: ID!
+	firstName: String!
+	lastName: String!
+	posts: [Post]
+}
+
+# Root
+type Query {
+    findUserById(id: ID): User
+	findAllUsers: [User]
+	countUsers: Long!
+}
+
+type Mutation {
+    createUser(firstName : String!, lastName : String!): User!
+    updateUser(userId : Long, firstName : String!, lastName : String!): String!
+    deleteUser(userId : Long): String!
+}
